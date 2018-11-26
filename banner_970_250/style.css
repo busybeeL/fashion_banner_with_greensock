@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.banner_300_600 {
+    width: 300px;
+    height: 600px;
+    position: relative;
+    font-family: 'Open Sans';
+    display: block;
+    overflow: hidden;
+}
+.banner_300_600_bg {
+    display: inline-block;
+    background: url('./bg_01.jpg');
+    width: 450px;
+    height: 600px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: -28px 0; 
+}
+.banner_300_600 .banner_300_600_wrapper {
+}
+.banner_300_600 .banner_300_600_wrapper .logo {
+    position: absolute;
+    background-color: #000;
+    background-image: url('./logo.png');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 68px;
+    top: 260px;
+    right: 0px;
+    background-size: 100px;
+    background-position: center;
+}
+.banner_300_600 .banner_300_600_wrapper .en {
+    position: absolute;
+    top: 390px;
+    right: 30px;
+    color:#fff;
+    text-align: right;
+    font-size: 15px;
+    opacity: 0;
+}
+.banner_300_600 .banner_300_600_wrapper .kr {
+    position: absolute;
+    top: 433px;
+    right: 30px;
+    color:#fff;
+    text-align: right;
+    font-size: 15px;
+    line-height: 18px;
+    opacity: 0;
+}
+.banner_300_600 .banner_300_600_wrapper .btn-shopNow {
+    position: absolute;
+    background: #fff;
+    padding: 10px 40px;
+    font-size: 15px;
+    right: 0;
+    line-height: 15px;
+    bottom: 36px;
+}
+.banner_970_250 {
+    margin-top: 20px;
+    width: 970px;
+    height: 250px;
+    position: relative;
+    font-family: 'Open Sans';
+    display: block;
+    background: #e7e7e7;
+}
+.banner_970_250_bg {
+    display: inline-block;
+    background: url('./bg_01.jpg');
+    width: 100%;
+    height: 250px;
+    background-size: 188px;
+    background-repeat: no-repeat;
+    background-position: 100% 0; 
+}
+.banner_970_250 .banner_970_250_wrapper {
+}
+.banner_970_250 .banner_970_250_wrapper .logo {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    background-color: #000;
+    background-image: url('./logo.png');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 68px;
+    background-size: 100px;
+    background-position: center;
+}
+.banner_970_250 .banner_970_250_wrapper .en {
+    position: absolute;
+    top: 36px;
+    left: 185px;
+    color: #000;
+    font-size: 19px;
+    line-height: 21px;
+    opacity: 0;
+}
+.banner_970_250 .banner_970_250_wrapper .kr {
+    position: absolute;
+    top: 80px;
+    left: 185px;
+    color: #000;
+    font-size: 19px;
+    line-height: 23px;
+    padding-top: 5px;
+    opacity: 0;
+}
+.banner_970_250 .banner_970_250_wrapper .btn-shopNow {
+    position: absolute;
+    background: #fff;
+    padding: 10px 40px;
+    font-size: 15px;
+    left: 0;
+    line-height: 15px;
+    bottom: 36px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+        <link href="./style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+            <div class="banner_300_600">
+                <span class="banner_300_600_bg">
+                </span>
+                <div class="banner_300_600_wrapper">
+                    <span class="logo">
+    
+                    </span>
+                    <span class="en">
+                        ENGINEERED FOR PINNACLE<br/>
+                        OUTDOOR PERFORMANCE
+                    </span>
+                    <span class="kr">
+                        정상을 위해 설계된</br/>
+                        야외 퍼포먼스  
+                    </span>
+                    <div class="btn-shopNow">
+                        Shop Now
+                    </div>
+                </div>
+            </div>
+        <script>
+        TweenMax.to(".banner_300_600_bg", 10, {
+            x: "-15px 0",
+            force3D:true,
+            ease:Linear.easeNone,
+            delay: 0.5});
+        TweenMax.to(".en", 3, {
+            opacity: 1,
+            delay: 0.5});
+        TweenMax.to(".kr", 3, {
+            opacity: 1,
+            delay: 1});
+        TweenMax.to(".banner_970_250_bg", 10, {
+            x: "-25px 0",
+            force3D:true,
+            ease:Linear.easeNone,
+            delay: 0.5});
+        TweenMax.to(".en", 3, {
+            opacity: 1,
+            delay: 0.5});
+        TweenMax.to(".kr", 3, {
+            opacity: 1,
+            delay: 1});
+        </script>
+    </body>
+</html>
